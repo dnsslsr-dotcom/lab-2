@@ -1,0 +1,15 @@
+x1 = int(input("стовпець першої клітинки"))  
+y1 = int(input("рядок першої клитінкі"))  
+x2 = int(input("стовпець другої клітинки"))  
+y2 = int(input("рядок другої клітинки"))  
+
+dx = abs(x2 - x1)
+dy = abs(y2 - y1)
+
+if (dx == 2 and dy == 1):
+    print("Yes")
+else:
+    if (dx == 1 and dy == 2):
+        print("Yes")
+    else:
+        print("No")
