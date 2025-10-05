@@ -1,0 +1,6 @@
+words = input()  
+
+if words == "yes" or words == "YES" or words == "Yes":
+    print("Yes")
+else:
+    print("No")
