@@ -1,0 +1,12 @@
+sides = int(input("Enter the number of sides: "))
+
+if sides == 3:
+    print("That's a triangle.")
+elif sides == 4:
+    print("That's a quadrilateral.")
+elif sides == 5:
+    print("That's a pentagon.")
+elif sides == 6:
+    print("That's a hexagon.")
+else:
+    print("That number of sides is not supported by this program.")
